@@ -1,12 +1,13 @@
-import React, { Component } from "react";
-import "./App.css";
-import Form from "./components/form2.js";
+import React, { Component } from 'react';
+import './App.css';
+import Layout from "./Layout";
+
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Form />
+        <Layout />
       </div>
     );
   }
